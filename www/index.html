@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <title>Test APP</title>
+    </head>
+    <body>
+        <div class="app">
+        <!-- START PAGE SEGMENT 1 -->
+            <div data-role="page" id="home">
+            	<header data-role="header">
+                   <h1>GLAVA</h1>
+                </header>
+            	<div data-role="content">
+                	<nav data-role="navbar">
+                    	<ul>
+                        	<li><a href="#home" class="ui-btn-active">home</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                        
+                    </nav>
+            	<h2>To je home page</h2>
+                <img class="logo" src="img/logo.png">
+            	</div>
+                <footer data-role="footer">
+                		<h3>Copyright &copy; 2015</h3>
+                </footer>
+            </div>
+         <!-- END PAGE SEGMENT 1 -->
+         <!-- START PAGE SEGMENT 2 -->
+            <div data-role="page" id="about">
+            	<header data-role="header">
+                   <h1>GLAVA</h1>
+                </header>
+            	<div data-role="content">
+                	<nav data-role="navbar">
+                    	<ul>
+                        	<li><a href="#home">home</a></li>
+                            <li><a href="#about" class="ui-btn-active">about</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                        
+                    </nav>
+            	<h2>To je about page</h2>
+            	</div>
+                <footer data-role="footer">
+                		<h3>Copyright &copy; 2015</h3>
+                </footer>
+            </div>
+         <!-- END PAGE SEGMENT 2 -->
+         <!-- START PAGE SEGMENT 3 -->
+            <div data-role="page" id="contact">
+            	<header data-role="header">
+                   <h1>Contact</h1>
+                </header>
+            	<div data-role="content">
+                	<nav data-role="navbar">
+                    	<ul>
+                        	<li><a href="#home">home</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#contact" class="ui-btn-active">contact</a></li>
+                        </ul>
+                        
+                    </nav>
+            	<h2>To je contact page</h2>
+            	</div>
+                <footer data-role="footer">
+                		<h3>Copyright &copy; 2015</h3>
+                </footer>
+            </div>
+         <!-- END PAGE SEGMENT 2 -->
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+</html>
+<!-- <?php
+					if( !empty($theme_option['top-bar-right-text']) ){
+						echo '<div class="top-navigation-right-text">';
+						echo gdlr_text_filter($theme_option['top-bar-right-text']);
+						echo '</div>';
+					}
+				?> -->
